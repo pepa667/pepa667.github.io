@@ -6,6 +6,8 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
+title: INDEX
+permalink: /
 ---
 
 # AHOY
@@ -13,3 +15,7 @@ layout: home
 !["deu certo?"](https://picsum.photos/1000/200)
 
 ## testando a INDEX
+
+```sh
+git clone wadahell@wadahell.git
+```
