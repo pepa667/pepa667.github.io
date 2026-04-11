@@ -4,3 +4,5 @@
 
 @import "minima/skins/{{ site.minima.skin | default: 'auto' }}",
   "minima/initialize";
+
+@import "custom"; // Hook to override existing styles.
