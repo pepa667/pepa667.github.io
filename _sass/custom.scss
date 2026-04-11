@@ -1,11 +1,10 @@
 /* Projects grid */
 .projects-section {
-  width: 75%;
   margin: 2rem auto;
 }
 .projects-section h2 {
   margin-bottom: 0.75rem;
-  color: var(--accent-green);
+  color: var(--minima-link-base-color);
 }
 
 /* grid layout */
@@ -39,7 +38,10 @@
 .project-title {
   margin: 0 0 0.5rem 0;
   font-size: 1.05rem;
-  color: var(--accent-green);
+  color: var(--minima-link-base-color);
+}
+.project-title :visited {
+  color: var(--minima-link-visited-color);
 }
 .project-desc {
   margin: 0 0 0.75rem 0;
@@ -66,15 +68,9 @@
 
 @media (prefers-color-scheme: light) {
   /* Light mode overrides */
-  .projects-section h2 {
-    color: var(--accent-yellow);
-  }
   .project-card {
     background: rgba(0, 0, 0, 0.02);
     border: 1px solid rgba(0, 0, 0, 0.06);
-  }
-  .project-title {
-    color: var(--accent-yellow);
   }
   .project-desc {
     color: rgba(0, 0, 0, 0.8);
