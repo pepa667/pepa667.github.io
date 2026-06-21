@@ -8,6 +8,15 @@ Ambiente de portfólio pessoal e showcase técnico projetado com foco em densida
 
 ---
 
+
+
+# 💡🏠 LIGHTHOUSE PERFORMANCE TEST — 100/100
+
+![lighthouse_100](https://pepa.dev.br/lighthouse_100.png)
+
+
+---
+
 ## 🛠️ Especificações Técnicas (Architecture Stack)
 
 - **Engine Visual:** Tailwind CSS v4 (Compilação nativa ultra-leve, variáveis CSS nativas).
@@ -57,26 +66,25 @@ Rotinas baseadas em `requestAnimationFrame` que realizam interpolações matemá
 ## 🚀 Inicialização Local
 
 1. Instale os pacotes de desenvolvimento:
+
 ```bash
 npm install
 
 ```
 
-
 2. Dispare o servidor local em ambiente de sandbox:
+
 ```bash
 npm run dev
 
 ```
 
-
 3. Compile e otimize os assets finais para deploy em produção:
+
 ```bash
 npm run build
 
 ```
-
-
 
 ---
 
