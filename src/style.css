@@ -79,7 +79,6 @@ body {
 
 .animate-hero-title {
   animation: heroZoomOut 2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-  animation-delay: 200ms;
 }
 
 /* 2. Efeitos Reativos Durante o Scroll (Suportado nos navegadores modernos) */
